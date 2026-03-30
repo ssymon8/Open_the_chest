@@ -1,5 +1,3 @@
-### --- Environnement Virtuel (VENV) ---
-# On ignore le dossier de l'environnement virtuel quel que soit son nom
 .venv/
 venv/
 env/
