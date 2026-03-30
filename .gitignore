@@ -1,0 +1,72 @@
+### --- Environnement Virtuel (VENV) ---
+# On ignore le dossier de l'environnement virtuel quel que soit son nom
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+share/
+include/
+
+### --- Python & Jupyter ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+### --- Reinforcement Learning & Logs ---
+# Dossiers de logs Tensorboard
+ppo_kuka_tensorboard/
+events.out.tfevents.*
+
+# Sauvegardes de modèles (fichiers .zip de SB3)
+*.zip
+models/
+saved_models/
+
+# Vidéos et images générées (GIFs, MP4)
+*.gif
+*.mp4
+*.png
+*.jpg
+*.jpeg
+
+### --- OS & IDE ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+### --- Données & Simulations ---
+# Si tu génères des fichiers de données massifs
+*.csv
+*.json
+!metadata.json  # Garder les métadonnées si nécessaire
